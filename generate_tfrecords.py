@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import sys
-from jj import *
+from read_imgs import *
 def load_image(addr):
     # read an image and resize to (224, 224)
     # cv2 load images as BGR, convert it to RGB
